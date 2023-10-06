@@ -1,0 +1,15 @@
+D:\projects\algorithm-assignment\bin\Debug\net6.0\algorithm-assignment.exe
+D:\projects\algorithm-assignment\bin\Debug\net6.0\algorithm-assignment.deps.json
+D:\projects\algorithm-assignment\bin\Debug\net6.0\algorithm-assignment.runtimeconfig.json
+D:\projects\algorithm-assignment\bin\Debug\net6.0\algorithm-assignment.dll
+D:\projects\algorithm-assignment\bin\Debug\net6.0\algorithm-assignment.pdb
+D:\projects\algorithm-assignment\obj\Debug\net6.0\algorithm-assignment.csproj.AssemblyReference.cache
+D:\projects\algorithm-assignment\obj\Debug\net6.0\algorithm-assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\algorithm-assignment\obj\Debug\net6.0\algorithm-assignment.AssemblyInfoInputs.cache
+D:\projects\algorithm-assignment\obj\Debug\net6.0\algorithm-assignment.AssemblyInfo.cs
+D:\projects\algorithm-assignment\obj\Debug\net6.0\algorithm-assignment.csproj.CoreCompileInputs.cache
+D:\projects\algorithm-assignment\obj\Debug\net6.0\algorithm-assignment.dll
+D:\projects\algorithm-assignment\obj\Debug\net6.0\refint\algorithm-assignment.dll
+D:\projects\algorithm-assignment\obj\Debug\net6.0\algorithm-assignment.pdb
+D:\projects\algorithm-assignment\obj\Debug\net6.0\algorithm-assignment.genruntimeconfig.cache
+D:\projects\algorithm-assignment\obj\Debug\net6.0\ref\algorithm-assignment.dll
