@@ -6,8 +6,8 @@ namespace algorithm_assignment.test
     internal class EfficiencyTest
     {
         static Random rd = new Random();
-        static int N_max = 2000000;
-        static int[] size = new int[] { 10000, 100000, 1000000 };
+        static int N_max = 11000000;
+        static int[] size = new int[] { 1000 ,10000, 100000, 1000000, 10000000 };
         static int round = 3;
         static string[] source = File.ReadAllLines("D:\\projects\\algorithm-assignment\\test.txt");
         static string[] sortedSource = File.ReadAllLines("D:\\projects\\algorithm-assignment\\test_sort.txt");
@@ -22,8 +22,9 @@ namespace algorithm_assignment.test
                 {
                     int n = size[i];
                     string[] arr = FillArr(source, n);
+                    int index = rd.Next(source.Length);
                     long begin = DateTime.Now.Ticks;
-                    OptionA.Insert(arr, ref n, source[size[i]]);
+                    OptionA.Insert(arr, ref n, source[index]);
                     long end = DateTime.Now.Ticks;
                     WriteLine("round {2}: Insert Option A, size of array: {0}, {1}", size[i], end - begin, r);
                 }
@@ -39,8 +40,9 @@ namespace algorithm_assignment.test
                 {
                     int n = size[i];
                     string[] arr = FillArr(source, n);
+                    int index = rd.Next(source.Length);
                     long begin = DateTime.Now.Ticks;
-                    OptionB.Insert(arr, ref n, source[size[i]]);
+                    OptionB.Insert(arr, ref n, source[index]);
                     long end = DateTime.Now.Ticks;
                     WriteLine("round {2}: Insert Option B, size of array: {0}, {1}", size[i], end - begin, r);
                 }
